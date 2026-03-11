@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kira-Kira English｜キラキライングリッシュ キッズオンライン英会話教室</title>
+    <meta name="description" content="Kira-Kira English(キラキライングリッシュ)は、お子様向けのオンライン英会話教室です。0歳から15歳までのお子様向けに楽しく学べて“使える英語力”が身につき幅広いレッスンが受講でき、家族割やきょうだい割も大好評！ご希望に合わせて英語検定受験コース、高校受験向けコースも開講しています。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- slickのCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Smart TabのCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/css/smart_tab_all.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- アニメーションのCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header class="header">
+      <h1 class="header-logo"><a href="./" class="header-logo-link"><img src="./images/header/header_logo.svg" alt="Kira-Kira English"></a></h1>
+      <!-- ハンバーガーボタン -->
+      <button type="button" class="hamburger-button">
+        <i class="bi bi-list"></i>
+      </button>
+      <!-- ナビゲーション、ヘッダーメニュー -->
+      <div class="hamburger-menu header-nav-container">
+        <nav class="hamburger-nav-first">
+          <ul class="hamburger-nav-first-list-group">
+            <li><a href="#course">コース案内</a></li>
+            <li><a href="#features">特色</a></li>
+            <li><a href="#instructor">講師紹介</a></li>
+            <li><a href="#pricing">料金プラン</a></li>
+            <li><a href="#faq">よくあるご質問</a></li>
+          </ul>
+        </nav>
+        <nav class="hamburger-nav-second">
+          <div>
+            <a href="#" class="button button-white-ghost">無料で体験する</a>
+            <i class="button-icon button-white-ghost-icon bi bi-arrow-right-short"></i>
+          </div>
+        </nav>
+        <ul class="header-nav-list-group">
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- メイン -->
+    <main class="main">
+      <!-- カバー -->
+      <div class="cover">
+        <!-- カルーセル -->
+        <div class="cover-slick">
+          <div class="cover-slick-item-first">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/cover/cover_pc_1.jpg">
+              <img src="images/cover/cover_sp_1.jpg" class="styled-image" alt="英会話教室に通う女の子">
+            </picture>
+            <div class="cover-catch-first-container">
+              <span class="cover-catch-first-top">
+                <span class="yellow">話せる !</span>
+                <span class="yellow-green"> 楽しい !   </span>
+              </span>
+              <span class="cover-catch-first-bottom">
+                <span class="orange">Kira-Kira</span>
+                <span class="black"> English</span>
+              </span>
+            </div>
+          </div>
+          <div class="cover-slick-item-second">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/cover/cover_pc_2.jpg">
+              <img src="images/cover/cover_sp_2.jpg" class="styled-image" alt="英会話教材">
+            </picture>
+            <div class="cover-catch-second-container">
+              <span class="cover-catch-second-top">
+                <span class="black-2">3日で</span>
+                <span class="yellow-2">完結 !</span>
+              </span>
+              <span class="cover-catch-second-bottom">
+                <span class="yellow-green-2">英検集中</span>
+                <span class="black-3">プログラム</span>
+              </span>
+            </div>
+          </div>
+          <div class="cover-slick-item-third">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/cover/cover_pc_3.jpg">
+              <img src="images/cover/cover_sp_3.jpg" class="styled-image" alt="家族で英会話の風景">
+            </picture>
+            <div class="cover-catch-third-container">
+              <span class="cover-catch-third-top">
+                <span class="orange-2">家族</span>
+                <span class="black-4">みんなで !</span>
+              </span>
+              <span class="cover-catch-third-bottom">
+                <span class="yellow-green-3">楽しく</span>
+                <span class="yellow-3">レッスン♪</span>
+              </span>
+            </div>
+          </div>
+          <div class="cover-slick-item-fourth">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/cover/cover_pc_4.jpg">
+              <img src="images/cover/cover_sp_4.jpg" class="styled-image" alt="オンライン英会話の風景">
+            </picture>
+            <div class="cover-catch-fourth-container">
+              <span class="cover-catch-fourth-top">
+                <span class="orange-3">夏休み</span>
+                <span class="black-5">限定 !</span>
+              </span>
+              <span class="cover-catch-fourth-bottom">
+                <span class="yellow-green-4">無料体験</span>
+                <span class="black-6">プログラム</span>
+              </span>
+            </div>
+          </div>
+          <div class="cover-slick-item-fifth">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/cover/cover_pc_5.jpg">
+              <img src="images/cover/cover_sp_5.jpg" class="styled-image" alt="英語の問題">
+            </picture>
+            <div class="cover-catch-fifth-container">
+              <span class="cover-catch-fifth-top">
+                <span class="yellow-green-5">7月31日</span>
+                <span class="black-7">まで <span class="sp-only">!</span></span>
+              </span>
+              <span class="cover-catch-fifth-bottom">
+                <span class="orange-4">初月0円</span>
+                <span class="black-8">キャンペーン</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- カバー下のお問い合わせ -->
+      <div class="cover-under-contact">
+        <div class="cover-under-contact-first">
+          <p class="cover-under-contact-first-top">楽しく学べて“使える英語力”が身に付く !</p>
+          <p class="cover-under-contact-first-bottom">幅広いレッスンが受講できる !</p>
+        </div>
+        <nav class="cover-under-contact-second">
+          <div>
+            <a href="#" class="button button-white-ghost">無料で体験する</a>
+            <i class="button-icon button-white-ghost-icon-2 bi bi-arrow-right-short"></i>
+          </div>
+        </nav>
+      </div>
+      <!-- キャンペーン -->
+      <section class="campaign">
+        <div class="campaign-container">
+          <div class="campaign-top">
+            <div class="campaign-top-inner">
+              <div class="campaign-top-left">
+                <img src="images/campaign/frame_left.png" class="styled-image-frame-left" alt="左フレーム">
+                <div class="overlay-left">
+                  <div class="campaign-top-left-text">
+                    <p class="campaign-top-left-first">2021年度</p>
+                    <p class="campaign-top-left-second">オンライン</p>
+                    <p class="campaign-top-left-third">教室ランキング</p>
+                    <p class="campaign-top-left-orange">No.<span class="large-number">1</span><span class="campaign-top-left-black">※1</span></p>
+                  </div>
+                </div>
+                <img src="images/campaign/frame_right.png" class="styled-image-frame-right" alt="右フレーム">
+              </div>
+              <div class="campaign-top-right">
+                <img src="images/campaign/frame_left.png" class="styled-image-frame-left-second" alt="左フレーム">
+                <div class="overlay-right">
+                  <div class="campaign-top-right-text">
+                    <p class="campaign-top-right-first">2021年度</p>
+                    <p class="campaign-top-right-second">オンライン</p>
+                    <p class="campaign-top-right-third">習い事ランキング</p>
+                    <p class="campaign-top-right-yellow">No.<span class="large-number">1</span><span class="campaign-top-right-black">※1</span></p>
+                  </div>
+                </div>
+                <img src="images/campaign/frame_right.png" class="styled-image-frame-right-second" alt="右フレーム">
+              </div>
+            </div>
+            <div class="campaign-top-bottom-caution">
+              <p class="campaign-top-bottom-caution">※1 2021年度15歳以上を対象としたインターネット調査</p>
+            </div>
+          </div>
+          <div class="campaign-bottom">
+            <p class="campaign-bottom-first"><span class="slash-left">/</span> 期間限定 <span class="slash-right">/</span></p>
+            <nav class="campaign-bottom-second">
+              <a href="#" class="button button-white-ghost-campaign">初月0円キャンペーン</a>
+              <div class="overlay-campaign">
+                <i class="button-icon button-white-ghost-icon-campaign bi bi-arrow-right-short"></i>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- コース案内 -->
+      <section class="course-information" id="course">
+        <div class="course-information-container">
+          <h2 class="course-information-title">コース案内</h2>
+          <!-- タブ -->
+          <div id="smarttab" class="tab">
+            <!-- タブナビゲーション -->
+            <ul class="nav">
+              <li><a class="nav-link" href="#tab-1">6歳まで</a></li>
+              <li><a class="nav-link" href="#tab-2">小学生</a></li>
+              <li><a class="nav-link" href="#tab-3">中学生</a></li>
+            </ul>
+            <div class="tab-content">
+              <!-- タブ1 -->
+              <div id="tab-1" class="tab-pane" role="tabpanel">
+                <div class="inner-box">
+                  <!-- 1個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_1.jpg" class="rounded-image-first" alt="">
+                    <p class="course-information-tab-content-title-first-top">ベビーコース</p>
+                    <p class="course-information-tab-content-title-first-bottom">0歳～2歳</p>
+                  </div>
+                  <!-- 2個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_2.jpg" class="rounded-image-second" alt="">
+                    <p class="course-information-tab-content-title-second-top">年少コース</p>
+                    <p class="course-information-tab-content-title-second-bottom">3歳～4歳</p>
+                  </div>
+                  <!-- 3個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_3.jpg" class="rounded-image-third" alt="">
+                    <p class="course-information-tab-content-title-third-top">年長コース</p>
+                    <p class="course-information-tab-content-title-third-bottom">5歳～6歳</p>
+                  </div>
+                </div>
+              </div>
+              <!-- タブ2 -->
+              <div id="tab-2" class="tab-pane" role="tabpanel">
+                <div class="inner-box">
+                  <!-- 1個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_4.jpg" class="rounded-image-first" alt="">
+                    <p class="course-information-tab-content-title-first-top">低学年コース</p>
+                    <p class="course-information-tab-content-title-first-bottom">小1～小3</p>
+                  </div>
+                  <!-- 2個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_5.jpg" class="rounded-image-second" alt="">
+                    <p class="course-information-tab-content-title-second-top">高学年コース</p>
+                    <p class="course-information-tab-content-title-second-bottom">小4～小6</p>
+                  </div>
+                  <!-- 3個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_6.jpg" class="rounded-image-third" alt="">
+                    <p class="course-information-tab-content-title-third-top">英検受験基礎コース</p>
+                    <p class="course-information-tab-content-title-third-bottom">基礎～3級受験</p>
+                  </div>
+                </div>
+              </div>
+              <!-- タブ3 -->
+              <div id="tab-3" class="tab-pane" role="tabpanel">
+                <div class="inner-box">
+                  <!-- 1個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_7.jpg" class="rounded-image-first" alt="">
+                    <p class="course-information-tab-content-title-first-top">中学基礎コース</p>
+                    <p class="course-information-tab-content-title-first-bottom">中1～中3</p>
+                  </div>
+                  <!-- 2個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course_tab_list_8.jpg" class="rounded-image-second" alt="">
+                    <p class="course-information-tab-content-title-second-top">中学応用コース</p>
+                    <p class="course-information-tab-content-title-second-bottom">高校受験対策重点</p>
+                  </div>
+                  <!-- 3個目 -->
+                  <div class="course-information-tab-content-item">
+                    <img src="images/course/course-tab-list-9.jpg" class="rounded-image-third" alt="">
+                    <p class="course-information-tab-content-title-third-top">英検受験上級コース</p>
+                    <p class="course-information-tab-content-title-third-bottom">準2級～1級挑戦</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- コース案内のお問い合わせ -->
+      <div class="course-information-under-contact">
+        <div class="course-information-under-contact-first">
+          <p class="course-information-under-contact-first-top">オンラインだから好きな時間に受講できる</p>
+          <p class="course-information-under-contact-first-bottom">ネイティブ講師の指導で英語力が身に付く</p>
+        </div>
+        <nav class="course-information-under-contact-second">
+          <a href="#" class="button button-white-ghost">無料で体験する</a>
+          <i class="button-icon button-white-ghost-icon-3 bi bi-arrow-right-short"></i>
+        </nav>
+      </div>
+      <!-- 3つの特色 -->
+      <section class="three-features" id="features">
+        <div class="three-features-container">
+          <div class="three-features-title-container">
+            <h2 class="three-features-title">Kira-Kira English</h2>
+            <p class="three-features-title-bottom">3つの特色</p>
+          </div>
+          <!-- 特色１ -->
+          <div class="three-features-one-container">
+            <div class="point-fadein-left">
+              <img src="images/point/point_1.jpg" class="point-image-one" alt="">
+            </div>
+            <div class="point-image-one-text-container">
+              <div class="point-image-one-text-first">
+                <p class="point-image-one-text-top">01.</p>
+              </div>
+              <div class="point-image-one-text-second">
+                <p class="point-image-one-text-bottom">「聞く・話す・読む・書く」夢中になってい<br class="sp-br">る間に「わかる」から「できる」に！</p>
+              </div>
+            </div>
+          </div>
+          <!-- 特色２ -->
+          <div class="three-features-two-container">
+            <div class="point-fadein-right">
+              <img src="images/point/point_2.jpg" class="point-image-two" alt="">
+            </div>
+            <div class="point-image-two-text-container">
+              <div class="point-image-two-text-first">
+                <p class="point-image-two-text-top">02.</p>
+              </div>
+              <div class="point-image-two-text-second">
+                <p class="point-image-two-text-bottom">たくさんの英文を読み、聞き、話すことで自<br class="sp-br">然と語順も身につき英語耳を作ります！</p>
+              </div>
+            </div>
+          </div>
+          <!-- 特色３ -->
+          <div class="three-features-three-container">
+            <div class="point-fadein-left">
+              <img src="images/point/point_3.jpg" class="point-image-three" alt="">
+            </div>
+            <div class="point-image-three-text-container">
+              <div class="point-image-three-text-first">
+                <p class="point-image-three-text-top">03.</p>
+              </div>
+              <div class="point-image-three-text-second">
+                <p class="point-image-three-text-bottom">写真や動画、イラストも活用し分かりやすく<br class="sp-br">文法を学び無理なく書く力も身につく！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ３つの特色のお問い合わせ -->
+      <div class="three-features-under-contact">
+        <div class="three-features-under-contact-first">
+          <p class="three-features-under-contact-first-top">お子様だけでなく家族での受講も可能です</p>
+          <p class="three-features-under-contact-first-bottom">家族みんなで英語を学びましょう！</p>
+        </div>
+        <nav class="three-features-under-contact-second">
+          <a href="#" class="button button-white-ghost">無料で体験する</a>
+          <i class="button-icon button-white-ghost-icon-4 bi bi-arrow-right-short"></i>
+        </nav>
+      </div>
+      <!-- 講師紹介 -->
+      <section class="instructor-introduction" id="instructor">
+        <div class="instructor-introduction-container">
+          <h2 class="instructor-introduction-title">講師紹介</h2>
+          <div class="instructor-introduction-twopeople-container">
+            <!-- ケント先生 -->
+            <div class="instructor-introduction-kento-container">
+              <img src="images/introduction/introduction_1.jpg" class="introduction-image-kento" alt="">
+              <div class="instructor-introduction-kento-name-container">
+                <p class="instructor-introduction-kento-name-top">Kento（ケント）先生</p>
+                <p class="instructor-introduction-kento-name-bottom">講師歴10年</p>
+              </div>
+              <div class="instructor-introduction-kento-text-container">
+                <p class="instructor-introduction-kento-text">「学びを通じて共に成長したい」と思っています。<br>一緒に学び、英語でのコミュニケーションを楽しみましょう。</p>
+              </div>
+            </div>
+            <!-- ナンシー先生 -->
+            <div class="instructor-introduction-nancy-container">
+              <img src="images/introduction/introduction_2.jpg" class="introduction-image-nancy" alt="">
+              <div class="instructor-introduction-nancy-name-container">
+                <p class="instructor-introduction-nancy-name-top">Nancy（ナンシー）先生</p>
+                <p class="instructor-introduction-nancy-name-bottom">講師歴8年</p>
+              </div>
+              <div class="instructor-introduction-nancy-text-container">
+                <p class="instructor-introduction-nancy-text">アメリカで小学生の先生をしていました。受験のための英語だけでなく私とともに学ぶ楽しさを実感しましょう。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 講師紹介下のお問い合わせ -->
+      <div class="instructor-introduction-under-contact">
+        <div class="instructor-introduction-under-contact-first">
+          <p class="instructor-introduction-under-contact-first-top">英語教育と児童教育のプロによるお子様に</p>
+          <p class="instructor-introduction-under-contact-first-bottom">合わせた丁寧な指導が好評です！</p>
+        </div>
+        <nav class="instructor-introduction-under-contact-second">
+          <a href="#" class="button button-white-ghost">無料で体験する</a>
+          <i class="button-icon button-white-ghost-icon-5 bi bi-arrow-right-short"></i>
+        </nav>
+      </div>
+      <!-- 料金プラン -->
+      <section class="pricing-plans" id="pricing">
+        <div class="pricing-plans-container">
+          <h2 class="pricing-plans-title">料金プラン</h2>
+          <!-- 小学生向けコース -->
+          <div class="elementary-grade-course-container">
+            <p class="elementary-grade-course-text">6歳まで/小学校向けコース共通</p>
+            <table class="collapse">
+              <thead>
+                <tr>
+                  <th>プラン</th>
+                  <th>月額費用（税込）</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>週1回コース</th>
+                  <td>
+                    <p class="pricing-plans-first-text">まずは慣れる所から始めたい方に</p><br>
+                    <p class="large-number-2-text"><span class="large-number-2">1,890</span><span class="small">円</span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>週2回コース</th>
+                  <td>
+                    <p class="pricing-plans-second-text">無理がないペースで人気No.１</p><br>
+                    <p class="large-number-2-text"><span class="large-number-2">3,780</span><span class="small">円</span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>週3回コース</th>
+                  <td>
+                    <p class="pricing-plans-third-text">早く上達したい方におすすめ</p><br>
+                    <p class="large-number-2-text"><span class="large-number-2">5,670</span><span class="small">円</span></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="elementary-grade-course-caution">
+              <p class="elementary-grade-course-caution-text">※各コースの料金は全て月額料金です。</p>
+            </div>
+          </div>
+          <!-- 中学生向けコース -->
+          <div class="junior-high-school-course-container">
+            <p class="junior-high-school-course-text">中学生向けコース</p>
+            <table class="collapse">
+              <thead>
+                <tr>
+                  <th>プラン</th>
+                  <th>月額費用（税込）</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>中学基礎コース</th>
+                  <td>
+                    <p class="pricing-plans-fourth-text">週2回で部活動とも両立して基礎<br>固め</p><br><span class="large-number-3">5,670</span><span class="small-2">円</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>中学応用コース</th>
+                  <td>
+                    <p class="pricing-plans-fifth-text">週3回で高校受験対策もバッチリ</p><br><span class="large-number-4">7,560</span><span class="small-2">円</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>英検上級コース</th>
+                  <td>
+                    <p class="pricing-plans-sixth-text">英検上級挑戦！内申書対策にも<br>おすすめ</p><span class="large-number-5">9,450</span><span class="small-2">円</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="elementary-grade-course-caution">
+              <p class="elementary-grade-course-caution-text">※各コースの料金は全て月額料金です。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 料金プラン下のお問い合わせ -->
+      <div class="pricing-plans-under-contact">
+        <div class="pricing-plans-under-contact-first">
+          <p class="pricing-plans-under-contact-first-top">学校の授業で導入する際も専門のスタッフが</p>
+          <p class="pricing-plans-under-contact-first-bottom">準備から運用までトータルサポート！</p>
+        </div>
+        <nav class="pricing-plans-under-contact-second">
+          <a href="#" class="button button-white-ghost">無料で体験する</a>
+          <i class="button-icon button-white-ghost-icon-6 bi bi-arrow-right-short"></i>
+        </nav>
+      </div>
+      <!-- よくあるご質問 -->
+      <section class="faq" id="faq">
+        <div class="faq-container">
+          <h2 class="faq-title">よくあるご質問</h2>
+          <div class="accordion">
+            <!-- 質問1 -->
+            <section class="accordion-item acc-1">
+              <h2 class="accordion-title">オンラインの英会話教室は初めてで続けられるか心配です。受講までの流れを教えてください。<i class="bi bi-caret-up-fill"></i></h2>
+              <div class="accordion-content">初めに受講者様と保護者様と面談を行い、ご希望と状況に合わせて目標設定をした後に短時間のレッスンからスタートいたします。<br>豊富なカリキュラムから選択し、受講可能です。楽しく無理なく学ぶことができ、気がついたら英語が好きになっていたと受講生様から好評を得ています。</div>
+            </section>
+            <!-- 質問2 -->
+            <section class="accordion-item acc-2">
+              <h2 class="accordion-title">スマートフォンや外出先でも受講できますか？<i class="bi bi-caret-up-fill"></i></h2>
+              <div class="accordion-content">パソコンやスマートフォンだけでなく、タブレットでも受講できます。<br class="pc-only">専用サイトにログインして頂ければ外出先のデバイスからも受講可能です。</div>
+            </section>
+            <!-- 質問3 -->
+            <section class="accordion-item acc-3">
+              <h2 class="accordion-title">授業料はどのようになっていますか？<i class="bi bi-caret-up-fill"></i></h2>
+              <div class="accordion-content">授業料はコースによって異なります。<br>詳細はコース紹介のページをご確認ください。またコース外の授業でもご希望頂ければレッスン単体での受講も可能ですのでお問い合わせください。</div>
+            </section>
+            <!-- 質問4 -->
+            <section class="accordion-item acc-4">
+              <h2 class="accordion-title">兄弟だけでの受講を検討中です。料金の割引や受講特典はありますか？<i class="bi bi-caret-up-fill"></i></h2>
+              <div class="accordion-content">兄弟だけでなく家族割引プランや限定カリキュラムをカスタマイズで受講できるウケ放題プラン等がございます。詳しくはお問い合わせください。</div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- よくあるご質問下のお問い合わせ -->
+      <div class="faq-under-contact">
+        <div class="faq-under-contact-first">
+          <p class="faq-under-contact-first-top">英語の勉強が楽しい！一緒に頑張る仲間と</p>
+          <p class="faq-under-contact-first-bottom">励まし合ってどんどんできるようになる！</p>
+        </div>
+        <nav class="faq-under-contact-second">
+          <a href="#" class="button button-white-ghost">無料で体験する</a>
+          <i class="button-icon button-white-ghost-icon-7 bi bi-arrow-right-short"></i>
+        </nav>
+      </div>
+    </main>
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <ul class="footer-sns">
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom-text-first">Kira-Kira English</p>
+          <p class="footer-bottom-text-second">キッズオンライン英会話</p>
+          <small class="footer-copyright">copyright © 2022 Kira-Kira English All Rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Smart Tab -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/js/jquery.smartTab.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+
+</html>

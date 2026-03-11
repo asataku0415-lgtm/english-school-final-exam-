@@ -18,4 +18,4 @@ HTML/CSSとjQueryプラグイン（スライダー/タブ/アコーディオン�
 
 ## 公開URL
 - デモページ：https://asataku0415-lgtm.github.io/english-school-final-exam-/
-- ソースコード：https://github.com/asataku0415-lgtm.github.io/english-school-final-exam-/
+- ソースコード：https://github.com/asataku0415-lgtm/english-school-final-exam-/

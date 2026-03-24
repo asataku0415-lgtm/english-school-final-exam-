@@ -139,7 +139,7 @@ li {
 .hamburger-nav-second {
   display: inline-flex;
   padding: 9px 70px 14px 71px;
-  margin: 23px 0px 21px 0px;
+  margin: 23px auto 21px auto;
   font-size: 19px;
   border-radius: 33px;
   background-color: #f11f8d;
